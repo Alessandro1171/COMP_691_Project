@@ -1,0 +1,1677 @@
+2025-03-30 20:19:21,596 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2025-03-30 20:19:21,596 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-03-30 20:19:21,597 - speechbrain.core - INFO - Beginning experiment!
+2025-03-30 20:19:21,597 - speechbrain.core - INFO - Experiment folder: results/train_with_wav2vec2/1993
+2025-03-30 20:19:23,802 - speechbrain.utils.superpowers - DEBUG - absl-py==1.4.0
+accelerate==1.5.2
+aiohappyeyeballs==2.6.1
+aiohttp==3.11.14
+aiosignal==1.3.2
+alabaster==1.0.0
+albucore==0.0.23
+albumentations==2.0.5
+ale-py==0.10.2
+altair==5.5.0
+annotated-types==0.7.0
+anyio==4.9.0
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+array_record==0.7.1
+arviz==0.21.0
+astropy==7.0.1
+astropy-iers-data==0.2025.3.17.0.34.53
+astunparse==1.6.3
+atpublic==5.1
+attrs==25.3.0
+audioread==3.0.1
+autograd==1.7.0
+babel==2.17.0
+backcall==0.2.0
+beautifulsoup4==4.13.3
+betterproto==2.0.0b6
+bigframes==1.41.0
+bigquery-magics==0.8.0
+black==24.3.0
+bleach==6.2.0
+blinker==1.9.0
+blis==1.2.0
+blosc2==3.2.0
+bokeh==3.6.3
+Bottleneck==1.4.2
+bqplot==0.12.44
+branca==0.8.1
+CacheControl==0.14.2
+cachetools==5.5.2
+catalogue==2.0.10
+certifi==2025.1.31
+cffi==1.17.1
+cfgv==3.4.0
+chardet==5.2.0
+charset-normalizer==3.4.1
+chex==0.1.89
+clarabel==0.10.0
+click==8.1.7
+cloudpathlib==0.21.0
+cloudpickle==3.1.1
+cmake==3.31.6
+cmdstanpy==1.2.5
+colorcet==3.1.0
+colorlover==0.3.0
+colour==0.1.5
+community==1.0.0b1
+confection==0.1.5
+cons==0.4.6
+contourpy==1.3.1
+cramjam==2.9.1
+cryptography==43.0.3
+cuda-python==12.6.2.post1
+cudf-cu12 @ https://pypi.nvidia.com/cudf-cu12/cudf_cu12-25.2.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+cudf-polars-cu12==25.2.2
+cufflinks==0.17.3
+cuml-cu12==25.2.1
+cupy-cuda12x==13.3.0
+cuvs-cu12==25.2.1
+cvxopt==1.3.2
+cvxpy==1.6.4
+cycler==0.12.1
+cyipopt==1.5.0
+cymem==2.0.11
+Cython==3.0.12
+dask==2024.12.1
+dask-cuda==25.2.0
+dask-cudf-cu12==25.2.2
+dask-expr==1.1.21
+datascience==0.17.6
+db-dtypes==1.4.2
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==4.4.2
+defusedxml==0.7.1
+Deprecated==1.2.18
+diffusers==0.32.2
+distlib==0.3.9
+distributed==2024.12.1
+distributed-ucxx-cu12==0.42.0
+distro==1.9.0
+dlib==19.24.2
+dm-tree==0.1.9
+docker-pycreds==0.4.0
+docstring_parser==0.16
+docstring_parser_fork==0.0.12
+docutils==0.21.2
+dopamine_rl==4.1.2
+duckdb==1.2.1
+earthengine-api==1.5.7
+easydict==1.13
+editdistance==0.8.1
+eerepr==0.1.1
+einops==0.8.1
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+entrypoints==0.4
+et_xmlfile==2.0.0
+etils==1.12.2
+etuples==0.3.9
+Farama-Notifications==0.0.4
+fastai==2.7.19
+fastcore==1.7.29
+fastdownload==0.0.7
+fastjsonschema==2.21.1
+fastprogress==1.0.3
+fastrlock==0.8.3
+filelock==3.18.0
+firebase-admin==6.7.0
+flake8==7.0.0
+Flask==3.1.0
+flatbuffers==25.2.10
+flax==0.10.4
+folium==0.19.5
+fonttools==4.56.0
+frozendict==2.4.6
+frozenlist==1.5.0
+fsspec==2025.3.0
+future==1.0.0
+gast==0.6.0
+gcsfs==2025.3.0
+GDAL==3.6.4
+gdown==5.2.0
+geemap==0.35.3
+geocoder==1.38.1
+geographiclib==2.0
+geopandas==1.0.1
+geopy==2.4.1
+gin-config==0.5.0
+gitdb==4.0.12
+GitPython==3.1.44
+glob2==0.7
+google==2.0.3
+google-ai-generativelanguage==0.6.15
+google-api-core==2.24.2
+google-api-python-client==2.164.0
+google-auth==2.38.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+google-cloud-aiplatform==1.84.0
+google-cloud-bigquery==3.29.0
+google-cloud-bigquery-connection==1.18.2
+google-cloud-bigquery-storage==2.29.1
+google-cloud-bigtable==2.30.0
+google-cloud-core==2.4.3
+google-cloud-dataproc==5.18.1
+google-cloud-datastore==2.20.2
+google-cloud-firestore==2.20.1
+google-cloud-functions==1.20.2
+google-cloud-iam==2.18.3
+google-cloud-language==2.17.1
+google-cloud-pubsub==2.29.0
+google-cloud-resource-manager==1.14.2
+google-cloud-spanner==3.53.0
+google-cloud-storage==2.19.0
+google-cloud-translate==3.20.2
+google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz
+google-crc32c==1.7.0
+google-genai==1.7.0
+google-generativeai==0.8.4
+google-pasta==0.2.0
+google-resumable-media==2.7.2
+google-spark-connect==0.5.2
+googleapis-common-protos==1.69.2
+googledrivedownloader==1.1.0
+graphviz==0.20.3
+greenlet==3.1.1
+grpc-google-iam-v1==0.14.2
+grpc-interceptor==0.15.4
+grpcio==1.71.0
+grpcio-status==1.71.0
+grpclib==0.4.7
+gspread==6.2.0
+gspread-dataframe==4.0.0
+gym==0.25.2
+gym-notices==0.0.8
+gymnasium==1.1.1
+h11==0.14.0
+h2==4.2.0
+h5netcdf==1.6.1
+h5py==3.13.0
+hdbscan==0.8.40
+highspy==1.9.0
+holidays==0.69
+holoviews==1.20.2
+hpack==4.1.0
+html5lib==1.1
+httpcore==1.0.7
+httpimport==1.4.1
+httplib2==0.22.0
+httpx==0.28.1
+huggingface-hub==0.29.3
+humanize==4.12.1
+hyperframe==6.1.0
+hyperopt==0.2.7
+HyperPyYAML==1.2.2
+ibis-framework==9.5.0
+identify==2.6.9
+idna==3.10
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+imagesize==1.4.1
+imbalanced-learn==0.13.0
+immutabledict==4.2.1
+importlib_metadata==8.6.1
+importlib_resources==6.5.2
+imutils==0.5.4
+inflect==7.5.0
+iniconfig==2.1.0
+intel-cmplr-lib-ur==2025.1.0
+intel-openmp==2025.1.0
+ipyevents==2.0.2
+ipyfilechooser==0.6.0
+ipykernel==6.17.1
+ipyleaflet==0.19.2
+ipyparallel==8.8.0
+ipython==7.34.0
+ipython-genutils==0.2.0
+ipython-sql==0.5.0
+ipytree==0.2.2
+ipywidgets==7.7.1
+isort==5.13.2
+itsdangerous==2.2.0
+jax==0.5.2
+jax-cuda12-pjrt==0.5.1
+jax-cuda12-plugin==0.5.1
+jaxlib==0.5.1
+jeepney==0.7.1
+jellyfish==1.1.0
+jieba==0.42.1
+Jinja2==3.1.6
+jiter==0.9.0
+joblib==1.4.2
+jsonpatch==1.33
+jsonpickle==4.0.2
+jsonpointer==3.0.0
+jsonschema==4.23.0
+jsonschema-specifications==2024.10.1
+jupyter-client==6.1.12
+jupyter-console==6.1.0
+jupyter-leaflet==0.19.2
+jupyter-server==1.16.0
+jupyter_core==5.7.2
+jupyterlab_pygments==0.3.0
+jupyterlab_widgets==3.0.13
+kaggle==1.7.4.2
+kagglehub==0.3.10
+keras==3.8.0
+keras-hub==0.18.1
+keras-nlp==0.18.1
+keyring==23.5.0
+kiwisolver==1.4.8
+langchain==0.3.21
+langchain-core==0.3.47
+langchain-text-splitters==0.3.7
+langcodes==3.5.0
+langsmith==0.3.18
+language_data==1.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.4
+libclang==18.1.1
+libcudf-cu12 @ https://pypi.nvidia.com/libcudf-cu12/libcudf_cu12-25.2.1-py3-none-manylinux_2_28_x86_64.whl
+libcugraph-cu12==25.2.0
+libcuml-cu12==25.2.1
+libcuvs-cu12==25.2.1
+libkvikio-cu12==25.2.1
+libraft-cu12==25.2.0
+librosa==0.11.0
+libucx-cu12==1.18.0
+libucxx-cu12==0.42.0
+lightgbm==4.5.0
+linkify-it-py==2.0.3
+llvmlite==0.43.0
+locket==1.0.0
+logical-unification==0.4.6
+lxml==5.3.1
+Mako==1.1.3
+marisa-trie==1.2.1
+Markdown==3.7
+markdown-it-py==3.0.0
+MarkupSafe==3.0.2
+matplotlib==3.10.0
+matplotlib-inline==0.1.7
+matplotlib-venn==1.1.2
+mccabe==0.7.0
+mdit-py-plugins==0.4.2
+mdurl==0.1.2
+miniKanren==1.0.3
+missingno==0.5.2
+mistune==3.1.3
+mizani==0.13.1
+mkl==2025.0.1
+ml-dtypes==0.4.1
+mlxtend==0.23.4
+more-itertools==10.6.0
+moviepy==1.0.3
+mpmath==1.3.0
+msgpack==1.1.0
+multidict==6.2.0
+multipledispatch==1.0.0
+multitasking==0.0.11
+murmurhash==1.0.12
+music21==9.3.0
+mypy-extensions==1.0.0
+namex==0.0.8
+narwhals==1.31.0
+natsort==8.4.0
+nbclassic==1.2.0
+nbclient==0.10.2
+nbconvert==7.16.6
+nbformat==5.10.4
+ndindex==1.9.2
+nest-asyncio==1.6.0
+networkx==3.4.2
+nibabel==5.3.2
+nltk==3.9.1
+nodeenv==1.9.1
+notebook==6.5.7
+notebook_shim==0.2.4
+numba==0.60.0
+numba-cuda==0.2.0
+numexpr==2.10.2
+numpy==2.0.2
+nvidia-cublas-cu12==12.4.5.8
+nvidia-cuda-cupti-cu12==12.4.127
+nvidia-cuda-nvcc-cu12==12.5.82
+nvidia-cuda-nvrtc-cu12==12.4.127
+nvidia-cuda-runtime-cu12==12.4.127
+nvidia-cudnn-cu12==9.1.0.70
+nvidia-cufft-cu12==11.2.1.3
+nvidia-curand-cu12==10.3.5.147
+nvidia-cusolver-cu12==11.6.1.9
+nvidia-cusparse-cu12==12.3.1.170
+nvidia-cusparselt-cu12==0.6.2
+nvidia-ml-py==12.570.86
+nvidia-nccl-cu12==2.21.5
+nvidia-nvcomp-cu12==4.2.0.11
+nvidia-nvjitlink-cu12==12.4.127
+nvidia-nvtx-cu12==12.4.127
+nvtx==0.2.11
+nx-cugraph-cu12 @ https://pypi.nvidia.com/nx-cugraph-cu12/nx_cugraph_cu12-25.2.0-py3-none-any.whl
+oauth2client==4.1.3
+oauthlib==3.2.2
+openai==1.68.2
+opencv-contrib-python==4.11.0.86
+opencv-python==4.11.0.86
+opencv-python-headless==4.11.0.86
+openpyxl==3.1.5
+opentelemetry-api==1.31.1
+opentelemetry-sdk==1.31.1
+opentelemetry-semantic-conventions==0.52b1
+opt_einsum==3.4.0
+optax==0.2.4
+optree==0.14.1
+orbax-checkpoint==0.11.10
+orjson==3.10.15
+osqp==0.6.7.post3
+packaging==24.2
+pandas==2.2.2
+pandas-datareader==0.10.0
+pandas-gbq==0.28.0
+pandas-stubs==2.2.2.240909
+pandocfilters==1.5.1
+panel==1.6.1
+param==2.2.0
+parso==0.8.4
+parsy==2.1
+partd==1.4.2
+pathlib==1.0.1
+pathspec==0.12.1
+patsy==1.0.1
+peewee==3.17.9
+peft==0.14.0
+pexpect==4.9.0
+pickleshare==0.7.5
+pillow==11.1.0
+platformdirs==4.3.7
+plotly==5.24.1
+plotnine==0.14.5
+pluggy==1.5.0
+ply==3.11
+polars==1.21.0
+pooch==1.8.2
+portpicker==1.5.2
+pre_commit==4.2.0
+preshed==3.0.9
+prettytable==3.15.1
+proglog==0.1.10
+progressbar2==4.5.0
+prometheus_client==0.21.1
+promise==2.3
+prompt_toolkit==3.0.50
+propcache==0.3.0
+prophet==1.1.6
+proto-plus==1.26.1
+protobuf==5.29.4
+psutil==5.9.5
+psycopg2==2.9.10
+ptyprocess==0.7.0
+py-cpuinfo==9.0.0
+py4j==0.10.9.7
+pyarrow==18.1.0
+pyasn1==0.6.1
+pyasn1_modules==0.4.1
+pycairo==1.27.0
+pycocotools==2.0.8
+pycodestyle==2.11.0
+pycparser==2.22
+pydantic==2.10.6
+pydantic_core==2.27.2
+pydata-google-auth==1.9.1
+pydoclint==0.4.1
+pydot==3.0.4
+pydotplus==2.0.2
+PyDrive==1.3.1
+PyDrive2==1.21.3
+pyerfa==2.0.1.5
+pyflakes==3.2.0
+pygame==2.6.1
+pygit2==1.17.0
+Pygments==2.18.0
+PyGObject==3.42.0
+pygtrie==2.5.0
+PyJWT==2.10.1
+pylibcudf-cu12 @ https://pypi.nvidia.com/pylibcudf-cu12/pylibcudf_cu12-25.2.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+pylibcugraph-cu12==25.2.0
+pylibraft-cu12==25.2.0
+pymc==5.21.1
+pymystem3==0.2.0
+pynndescent==0.5.13
+pynvjitlink-cu12==0.5.2
+pynvml==12.0.0
+pyogrio==0.10.0
+Pyomo==6.8.2
+PyOpenGL==3.1.9
+pyOpenSSL==24.2.1
+pyparsing==3.2.1
+pyperclip==1.9.0
+pyproj==3.7.1
+pyshp==2.3.1
+PySocks==1.7.1
+pyspark==3.5.5
+pytensor==2.28.3
+pytest==7.4.0
+python-apt==0.0.0
+python-box==7.3.2
+python-dateutil==2.8.2
+python-louvain==0.16
+python-slugify==8.0.4
+python-snappy==0.7.3
+python-utils==3.9.1
+pytz==2025.1
+pyviz_comms==3.0.4
+PyYAML==6.0.2
+pyzmq==24.0.1
+qdldl==0.1.7.post5
+raft-dask-cu12==25.2.0
+rapids-dask-dependency==25.2.0
+ratelim==0.1.6
+referencing==0.36.2
+regex==2024.11.6
+requests==2.32.3
+requests-oauthlib==2.0.0
+requests-toolbelt==1.0.0
+requirements-parser==0.9.0
+rich==13.9.4
+rmm-cu12==25.2.0
+roman-numerals-py==3.1.0
+rpds-py==0.23.1
+rpy2==3.5.17
+rsa==4.9
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+safetensors==0.5.3
+scikit-image==0.25.2
+scikit-learn==1.6.1
+scipy==1.14.1
+scooby==0.10.0
+scs==3.2.7.post2
+seaborn==0.13.2
+SecretStorage==3.3.1
+Send2Trash==1.8.3
+sentence-transformers==3.4.1
+sentencepiece==0.2.0
+sentry-sdk==2.24.0
+setproctitle==1.3.5
+shap==0.47.0
+shapely==2.0.7
+shellingham==1.5.4
+simple-parsing==0.1.7
+simplejson==3.20.1
+simsimd==6.2.1
+six==1.17.0
+sklearn-compat==0.1.3
+sklearn-pandas==2.2.0
+slicer==0.0.8
+smart-open==7.1.0
+smmap==5.0.2
+sniffio==1.3.1
+snowballstemmer==2.2.0
+sortedcontainers==2.4.0
+soundfile==0.13.1
+soupsieve==2.6
+soxr==0.5.0.post1
+spacy==3.8.4
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+spanner-graph-notebook==1.1.5
+speechbrain @ file:///content/speechbrain
+Sphinx==8.2.3
+sphinxcontrib-applehelp==2.0.0
+sphinxcontrib-devhelp==2.0.0
+sphinxcontrib-htmlhelp==2.1.0
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==2.0.0
+sphinxcontrib-serializinghtml==2.0.0
+SQLAlchemy==2.0.39
+sqlglot==25.20.2
+sqlparse==0.5.3
+srsly==2.5.1
+stanio==0.5.1
+statsmodels==0.14.4
+stringzilla==3.12.3
+sympy==1.13.1
+tables==3.10.2
+tabulate==0.9.0
+tbb==2022.1.0
+tblib==3.0.0
+tcmlib==1.3.0
+tenacity==9.0.0
+tensorboard==2.18.0
+tensorboard-data-server==0.7.2
+tensorflow==2.18.0
+tensorflow-datasets==4.9.8
+tensorflow-hub==0.16.1
+tensorflow-io-gcs-filesystem==0.37.1
+tensorflow-metadata==1.16.1
+tensorflow-probability==0.25.0
+tensorflow-text==2.18.1
+tensorstore==0.1.72
+termcolor==2.5.0
+terminado==0.18.1
+text-unidecode==1.3
+textblob==0.19.0
+tf-slim==1.1.0
+tf_keras==2.18.0
+thinc==8.3.4
+threadpoolctl==3.6.0
+tifffile==2025.3.13
+timm==1.0.15
+tinycss2==1.4.0
+tokenizers==0.21.1
+toml==0.10.2
+toolz==0.12.1
+torch @ https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
+torchaudio @ https://download.pytorch.org/whl/cu124/torchaudio-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
+torchsummary==1.5.1
+torchvision @ https://download.pytorch.org/whl/cu124/torchvision-0.21.0%2Bcu124-cp311-cp311-linux_x86_64.whl
+tornado==6.4.2
+tqdm==4.67.1
+traitlets==5.7.1
+traittypes==0.2.1
+transformers==4.50.0
+treelite==4.4.1
+treescope==0.1.9
+triton==3.2.0
+tweepy==4.15.0
+typeguard==4.4.2
+typer==0.15.2
+types-pytz==2025.1.0.20250318
+types-setuptools==76.0.0.20250313
+typing_extensions==4.12.2
+tzdata==2025.1
+tzlocal==5.3.1
+uc-micro-py==1.0.3
+ucx-py-cu12==0.42.0
+ucxx-cu12==0.42.0
+umap-learn==0.5.7
+umf==0.10.0
+uritemplate==4.1.1
+urllib3==2.3.0
+vega-datasets==0.9.0
+virtualenv==20.29.3
+wadllib==1.3.6
+wandb==0.19.8
+wasabi==1.1.3
+wcwidth==0.2.13
+weasel==0.4.1
+webcolors==24.11.1
+webencodings==0.5.1
+websocket-client==1.8.0
+websockets==15.0.1
+Werkzeug==3.1.3
+widgetsnbextension==3.6.10
+wordcloud==1.9.4
+wrapt==1.17.2
+xarray==2025.1.2
+xarray-einstats==0.8.0
+xgboost==2.1.4
+xlrd==2.0.1
+xyzservices==2025.1.0
+yamllint==1.35.1
+yarl==1.18.3
+yellowbrick==1.5
+yfinance==0.2.55
+zict==3.0.0
+zipp==3.21.0
+zstandard==0.23.0
+
+
+2025-03-30 20:19:23,814 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-03-30 20:19:23,814 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load_if_possible
+2025-03-30 20:19:23,815 - speechbrain.core - ERROR - Exception:
+Traceback (most recent call last):
+  File "/content/train_status_id_brain_with_wav2vec2.py", line 237, in <module>
+    datasets = dataio_prep(hparams)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/content/train_status_id_brain_with_wav2vec2.py", line 184, in dataio_prep
+    datasets[dataset] = sb.dataio.dataset.DynamicItemDataset.from_json(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/dataio/dataset.py", line 409, in from_json
+    data = load_data_json(json_path, replacements)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/dist-packages/speechbrain/dataio/dataio.py", line 73, in load_data_json
+    with open(json_path, "r", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'save_data_json/train.json'
+2025-03-30 20:19:26,906 - filelock - DEBUG - Attempting to release lock 133114083833424 on results/train_with_wav2vec2/1993/save/wav2vec2_checkpoint/.locks/models--facebook--wav2vec2-base/6180a447f726e4a2ab8b50effaf0a96f5b161489c620087c3b05418f0179f875.lock
+2025-03-30 20:19:26,906 - filelock - DEBUG - Lock 133114083833424 released on results/train_with_wav2vec2/1993/save/wav2vec2_checkpoint/.locks/models--facebook--wav2vec2-base/6180a447f726e4a2ab8b50effaf0a96f5b161489c620087c3b05418f0179f875.lock
+2025-03-30 20:22:47,743 - speechbrain.utils.quirks - INFO - Applied quirks (see `speechbrain.utils.quirks`): [allow_tf32, disable_jit_profiling]
+2025-03-30 20:22:47,743 - speechbrain.utils.quirks - INFO - Excluded quirks specified by the `SB_DISABLE_QUIRKS` environment (comma-separated list): []
+2025-03-30 20:22:47,743 - speechbrain.core - INFO - Beginning experiment!
+2025-03-30 20:22:47,743 - speechbrain.core - INFO - Experiment folder: results/train_with_wav2vec2/1993
+2025-03-30 20:22:48,792 - speechbrain.utils.superpowers - DEBUG - absl-py==1.4.0
+accelerate==1.5.2
+aiohappyeyeballs==2.6.1
+aiohttp==3.11.14
+aiosignal==1.3.2
+alabaster==1.0.0
+albucore==0.0.23
+albumentations==2.0.5
+ale-py==0.10.2
+altair==5.5.0
+annotated-types==0.7.0
+anyio==4.9.0
+argon2-cffi==23.1.0
+argon2-cffi-bindings==21.2.0
+array_record==0.7.1
+arviz==0.21.0
+astropy==7.0.1
+astropy-iers-data==0.2025.3.17.0.34.53
+astunparse==1.6.3
+atpublic==5.1
+attrs==25.3.0
+audioread==3.0.1
+autograd==1.7.0
+babel==2.17.0
+backcall==0.2.0
+beautifulsoup4==4.13.3
+betterproto==2.0.0b6
+bigframes==1.41.0
+bigquery-magics==0.8.0
+black==24.3.0
+bleach==6.2.0
+blinker==1.9.0
+blis==1.2.0
+blosc2==3.2.0
+bokeh==3.6.3
+Bottleneck==1.4.2
+bqplot==0.12.44
+branca==0.8.1
+CacheControl==0.14.2
+cachetools==5.5.2
+catalogue==2.0.10
+certifi==2025.1.31
+cffi==1.17.1
+cfgv==3.4.0
+chardet==5.2.0
+charset-normalizer==3.4.1
+chex==0.1.89
+clarabel==0.10.0
+click==8.1.7
+cloudpathlib==0.21.0
+cloudpickle==3.1.1
+cmake==3.31.6
+cmdstanpy==1.2.5
+colorcet==3.1.0
+colorlover==0.3.0
+colour==0.1.5
+community==1.0.0b1
+confection==0.1.5
+cons==0.4.6
+contourpy==1.3.1
+cramjam==2.9.1
+cryptography==43.0.3
+cuda-python==12.6.2.post1
+cudf-cu12 @ https://pypi.nvidia.com/cudf-cu12/cudf_cu12-25.2.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+cudf-polars-cu12==25.2.2
+cufflinks==0.17.3
+cuml-cu12==25.2.1
+cupy-cuda12x==13.3.0
+cuvs-cu12==25.2.1
+cvxopt==1.3.2
+cvxpy==1.6.4
+cycler==0.12.1
+cyipopt==1.5.0
+cymem==2.0.11
+Cython==3.0.12
+dask==2024.12.1
+dask-cuda==25.2.0
+dask-cudf-cu12==25.2.2
+dask-expr==1.1.21
+datascience==0.17.6
+db-dtypes==1.4.2
+dbus-python==1.2.18
+debugpy==1.8.0
+decorator==4.4.2
+defusedxml==0.7.1
+Deprecated==1.2.18
+diffusers==0.32.2
+distlib==0.3.9
+distributed==2024.12.1
+distributed-ucxx-cu12==0.42.0
+distro==1.9.0
+dlib==19.24.2
+dm-tree==0.1.9
+docker-pycreds==0.4.0
+docstring_parser==0.16
+docstring_parser_fork==0.0.12
+docutils==0.21.2
+dopamine_rl==4.1.2
+duckdb==1.2.1
+earthengine-api==1.5.7
+easydict==1.13
+editdistance==0.8.1
+eerepr==0.1.1
+einops==0.8.1
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+entrypoints==0.4
+et_xmlfile==2.0.0
+etils==1.12.2
+etuples==0.3.9
+Farama-Notifications==0.0.4
+fastai==2.7.19
+fastcore==1.7.29
+fastdownload==0.0.7
+fastjsonschema==2.21.1
+fastprogress==1.0.3
+fastrlock==0.8.3
+filelock==3.18.0
+firebase-admin==6.7.0
+flake8==7.0.0
+Flask==3.1.0
+flatbuffers==25.2.10
+flax==0.10.4
+folium==0.19.5
+fonttools==4.56.0
+frozendict==2.4.6
+frozenlist==1.5.0
+fsspec==2025.3.0
+future==1.0.0
+gast==0.6.0
+gcsfs==2025.3.0
+GDAL==3.6.4
+gdown==5.2.0
+geemap==0.35.3
+geocoder==1.38.1
+geographiclib==2.0
+geopandas==1.0.1
+geopy==2.4.1
+gin-config==0.5.0
+gitdb==4.0.12
+GitPython==3.1.44
+glob2==0.7
+google==2.0.3
+google-ai-generativelanguage==0.6.15
+google-api-core==2.24.2
+google-api-python-client==2.164.0
+google-auth==2.38.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+google-cloud-aiplatform==1.84.0
+google-cloud-bigquery==3.29.0
+google-cloud-bigquery-connection==1.18.2
+google-cloud-bigquery-storage==2.29.1
+google-cloud-bigtable==2.30.0
+google-cloud-core==2.4.3
+google-cloud-dataproc==5.18.1
+google-cloud-datastore==2.20.2
+google-cloud-firestore==2.20.1
+google-cloud-functions==1.20.2
+google-cloud-iam==2.18.3
+google-cloud-language==2.17.1
+google-cloud-pubsub==2.29.0
+google-cloud-resource-manager==1.14.2
+google-cloud-spanner==3.53.0
+google-cloud-storage==2.19.0
+google-cloud-translate==3.20.2
+google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz
+google-crc32c==1.7.0
+google-genai==1.7.0
+google-generativeai==0.8.4
+google-pasta==0.2.0
+google-resumable-media==2.7.2
+google-spark-connect==0.5.2
+googleapis-common-protos==1.69.2
+googledrivedownloader==1.1.0
+graphviz==0.20.3
+greenlet==3.1.1
+grpc-google-iam-v1==0.14.2
+grpc-interceptor==0.15.4
+grpcio==1.71.0
+grpcio-status==1.71.0
+grpclib==0.4.7
+gspread==6.2.0
+gspread-dataframe==4.0.0
+gym==0.25.2
+gym-notices==0.0.8
+gymnasium==1.1.1
+h11==0.14.0
+h2==4.2.0
+h5netcdf==1.6.1
+h5py==3.13.0
+hdbscan==0.8.40
+highspy==1.9.0
+holidays==0.69
+holoviews==1.20.2
+hpack==4.1.0
+html5lib==1.1
+httpcore==1.0.7
+httpimport==1.4.1
+httplib2==0.22.0
+httpx==0.28.1
+huggingface-hub==0.29.3
+humanize==4.12.1
+hyperframe==6.1.0
+hyperopt==0.2.7
+HyperPyYAML==1.2.2
+ibis-framework==9.5.0
+identify==2.6.9
+idna==3.10
+imageio==2.37.0
+imageio-ffmpeg==0.6.0
+imagesize==1.4.1
+imbalanced-learn==0.13.0
+immutabledict==4.2.1
+importlib_metadata==8.6.1
+importlib_resources==6.5.2
+imutils==0.5.4
+inflect==7.5.0
+iniconfig==2.1.0
+intel-cmplr-lib-ur==2025.1.0
+intel-openmp==2025.1.0
+ipyevents==2.0.2
+ipyfilechooser==0.6.0
+ipykernel==6.17.1
+ipyleaflet==0.19.2
+ipyparallel==8.8.0
+ipython==7.34.0
+ipython-genutils==0.2.0
+ipython-sql==0.5.0
+ipytree==0.2.2
+ipywidgets==7.7.1
+isort==5.13.2
+itsdangerous==2.2.0
+jax==0.5.2
+jax-cuda12-pjrt==0.5.1
+jax-cuda12-plugin==0.5.1
+jaxlib==0.5.1
+jeepney==0.7.1
+jellyfish==1.1.0
+jieba==0.42.1
+Jinja2==3.1.6
+jiter==0.9.0
+joblib==1.4.2
+jsonpatch==1.33
+jsonpickle==4.0.2
+jsonpointer==3.0.0
+jsonschema==4.23.0
+jsonschema-specifications==2024.10.1
+jupyter-client==6.1.12
+jupyter-console==6.1.0
+jupyter-leaflet==0.19.2
+jupyter-server==1.16.0
+jupyter_core==5.7.2
+jupyterlab_pygments==0.3.0
+jupyterlab_widgets==3.0.13
+kaggle==1.7.4.2
+kagglehub==0.3.10
+keras==3.8.0
+keras-hub==0.18.1
+keras-nlp==0.18.1
+keyring==23.5.0
+kiwisolver==1.4.8
+langchain==0.3.21
+langchain-core==0.3.47
+langchain-text-splitters==0.3.7
+langcodes==3.5.0
+langsmith==0.3.18
+language_data==1.3.0
+launchpadlib==1.10.16
+lazr.restfulclient==0.14.4
+lazr.uri==1.0.6
+lazy_loader==0.4
+libclang==18.1.1
+libcudf-cu12 @ https://pypi.nvidia.com/libcudf-cu12/libcudf_cu12-25.2.1-py3-none-manylinux_2_28_x86_64.whl
+libcugraph-cu12==25.2.0
+libcuml-cu12==25.2.1
+libcuvs-cu12==25.2.1
+libkvikio-cu12==25.2.1
+libraft-cu12==25.2.0
+librosa==0.11.0
+libucx-cu12==1.18.0
+libucxx-cu12==0.42.0
+lightgbm==4.5.0
+linkify-it-py==2.0.3
+llvmlite==0.43.0
+locket==1.0.0
+logical-unification==0.4.6
+lxml==5.3.1
+Mako==1.1.3
+marisa-trie==1.2.1
+Markdown==3.7
+markdown-it-py==3.0.0
+MarkupSafe==3.0.2
+matplotlib==3.10.0
+matplotlib-inline==0.1.7
+matplotlib-venn==1.1.2
+mccabe==0.7.0
+mdit-py-plugins==0.4.2
+mdurl==0.1.2
+miniKanren==1.0.3
+missingno==0.5.2
+mistune==3.1.3
+mizani==0.13.1
+mkl==2025.0.1
+ml-dtypes==0.4.1
+mlxtend==0.23.4
+more-itertools==10.6.0
+moviepy==1.0.3
+mpmath==1.3.0
+msgpack==1.1.0
+multidict==6.2.0
+multipledispatch==1.0.0
+multitasking==0.0.11
+murmurhash==1.0.12
+music21==9.3.0
+mypy-extensions==1.0.0
+namex==0.0.8
+narwhals==1.31.0
+natsort==8.4.0
+nbclassic==1.2.0
+nbclient==0.10.2
+nbconvert==7.16.6
+nbformat==5.10.4
+ndindex==1.9.2
+nest-asyncio==1.6.0
+networkx==3.4.2
+nibabel==5.3.2
+nltk==3.9.1
+nodeenv==1.9.1
+notebook==6.5.7
+notebook_shim==0.2.4
+numba==0.60.0
+numba-cuda==0.2.0
+numexpr==2.10.2
+numpy==2.0.2
+nvidia-cublas-cu12==12.4.5.8
+nvidia-cuda-cupti-cu12==12.4.127
+nvidia-cuda-nvcc-cu12==12.5.82
+nvidia-cuda-nvrtc-cu12==12.4.127
+nvidia-cuda-runtime-cu12==12.4.127
+nvidia-cudnn-cu12==9.1.0.70
+nvidia-cufft-cu12==11.2.1.3
+nvidia-curand-cu12==10.3.5.147
+nvidia-cusolver-cu12==11.6.1.9
+nvidia-cusparse-cu12==12.3.1.170
+nvidia-cusparselt-cu12==0.6.2
+nvidia-ml-py==12.570.86
+nvidia-nccl-cu12==2.21.5
+nvidia-nvcomp-cu12==4.2.0.11
+nvidia-nvjitlink-cu12==12.4.127
+nvidia-nvtx-cu12==12.4.127
+nvtx==0.2.11
+nx-cugraph-cu12 @ https://pypi.nvidia.com/nx-cugraph-cu12/nx_cugraph_cu12-25.2.0-py3-none-any.whl
+oauth2client==4.1.3
+oauthlib==3.2.2
+openai==1.68.2
+opencv-contrib-python==4.11.0.86
+opencv-python==4.11.0.86
+opencv-python-headless==4.11.0.86
+openpyxl==3.1.5
+opentelemetry-api==1.31.1
+opentelemetry-sdk==1.31.1
+opentelemetry-semantic-conventions==0.52b1
+opt_einsum==3.4.0
+optax==0.2.4
+optree==0.14.1
+orbax-checkpoint==0.11.10
+orjson==3.10.15
+osqp==0.6.7.post3
+packaging==24.2
+pandas==2.2.2
+pandas-datareader==0.10.0
+pandas-gbq==0.28.0
+pandas-stubs==2.2.2.240909
+pandocfilters==1.5.1
+panel==1.6.1
+param==2.2.0
+parso==0.8.4
+parsy==2.1
+partd==1.4.2
+pathlib==1.0.1
+pathspec==0.12.1
+patsy==1.0.1
+peewee==3.17.9
+peft==0.14.0
+pexpect==4.9.0
+pickleshare==0.7.5
+pillow==11.1.0
+platformdirs==4.3.7
+plotly==5.24.1
+plotnine==0.14.5
+pluggy==1.5.0
+ply==3.11
+polars==1.21.0
+pooch==1.8.2
+portpicker==1.5.2
+pre_commit==4.2.0
+preshed==3.0.9
+prettytable==3.15.1
+proglog==0.1.10
+progressbar2==4.5.0
+prometheus_client==0.21.1
+promise==2.3
+prompt_toolkit==3.0.50
+propcache==0.3.0
+prophet==1.1.6
+proto-plus==1.26.1
+protobuf==5.29.4
+psutil==5.9.5
+psycopg2==2.9.10
+ptyprocess==0.7.0
+py-cpuinfo==9.0.0
+py4j==0.10.9.7
+pyarrow==18.1.0
+pyasn1==0.6.1
+pyasn1_modules==0.4.1
+pycairo==1.27.0
+pycocotools==2.0.8
+pycodestyle==2.11.0
+pycparser==2.22
+pydantic==2.10.6
+pydantic_core==2.27.2
+pydata-google-auth==1.9.1
+pydoclint==0.4.1
+pydot==3.0.4
+pydotplus==2.0.2
+PyDrive==1.3.1
+PyDrive2==1.21.3
+pyerfa==2.0.1.5
+pyflakes==3.2.0
+pygame==2.6.1
+pygit2==1.17.0
+Pygments==2.18.0
+PyGObject==3.42.0
+pygtrie==2.5.0
+PyJWT==2.10.1
+pylibcudf-cu12 @ https://pypi.nvidia.com/pylibcudf-cu12/pylibcudf_cu12-25.2.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+pylibcugraph-cu12==25.2.0
+pylibraft-cu12==25.2.0
+pymc==5.21.1
+pymystem3==0.2.0
+pynndescent==0.5.13
+pynvjitlink-cu12==0.5.2
+pynvml==12.0.0
+pyogrio==0.10.0
+Pyomo==6.8.2
+PyOpenGL==3.1.9
+pyOpenSSL==24.2.1
+pyparsing==3.2.1
+pyperclip==1.9.0
+pyproj==3.7.1
+pyshp==2.3.1
+PySocks==1.7.1
+pyspark==3.5.5
+pytensor==2.28.3
+pytest==7.4.0
+python-apt==0.0.0
+python-box==7.3.2
+python-dateutil==2.8.2
+python-louvain==0.16
+python-slugify==8.0.4
+python-snappy==0.7.3
+python-utils==3.9.1
+pytz==2025.1
+pyviz_comms==3.0.4
+PyYAML==6.0.2
+pyzmq==24.0.1
+qdldl==0.1.7.post5
+raft-dask-cu12==25.2.0
+rapids-dask-dependency==25.2.0
+ratelim==0.1.6
+referencing==0.36.2
+regex==2024.11.6
+requests==2.32.3
+requests-oauthlib==2.0.0
+requests-toolbelt==1.0.0
+requirements-parser==0.9.0
+rich==13.9.4
+rmm-cu12==25.2.0
+roman-numerals-py==3.1.0
+rpds-py==0.23.1
+rpy2==3.5.17
+rsa==4.9
+ruamel.yaml==0.18.10
+ruamel.yaml.clib==0.2.12
+safetensors==0.5.3
+scikit-image==0.25.2
+scikit-learn==1.6.1
+scipy==1.14.1
+scooby==0.10.0
+scs==3.2.7.post2
+seaborn==0.13.2
+SecretStorage==3.3.1
+Send2Trash==1.8.3
+sentence-transformers==3.4.1
+sentencepiece==0.2.0
+sentry-sdk==2.24.0
+setproctitle==1.3.5
+shap==0.47.0
+shapely==2.0.7
+shellingham==1.5.4
+simple-parsing==0.1.7
+simplejson==3.20.1
+simsimd==6.2.1
+six==1.17.0
+sklearn-compat==0.1.3
+sklearn-pandas==2.2.0
+slicer==0.0.8
+smart-open==7.1.0
+smmap==5.0.2
+sniffio==1.3.1
+snowballstemmer==2.2.0
+sortedcontainers==2.4.0
+soundfile==0.13.1
+soupsieve==2.6
+soxr==0.5.0.post1
+spacy==3.8.4
+spacy-legacy==3.0.12
+spacy-loggers==1.0.5
+spanner-graph-notebook==1.1.5
+speechbrain @ file:///content/speechbrain
+Sphinx==8.2.3
+sphinxcontrib-applehelp==2.0.0
+sphinxcontrib-devhelp==2.0.0
+sphinxcontrib-htmlhelp==2.1.0
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==2.0.0
+sphinxcontrib-serializinghtml==2.0.0
+SQLAlchemy==2.0.39
+sqlglot==25.20.2
+sqlparse==0.5.3
+srsly==2.5.1
+stanio==0.5.1
+statsmodels==0.14.4
+stringzilla==3.12.3
+sympy==1.13.1
+tables==3.10.2
+tabulate==0.9.0
+tbb==2022.1.0
+tblib==3.0.0
+tcmlib==1.3.0
+tenacity==9.0.0
+tensorboard==2.18.0
+tensorboard-data-server==0.7.2
+tensorflow==2.18.0
+tensorflow-datasets==4.9.8
+tensorflow-hub==0.16.1
+tensorflow-io-gcs-filesystem==0.37.1
+tensorflow-metadata==1.16.1
+tensorflow-probability==0.25.0
+tensorflow-text==2.18.1
+tensorstore==0.1.72
+termcolor==2.5.0
+terminado==0.18.1
+text-unidecode==1.3
+textblob==0.19.0
+tf-slim==1.1.0
+tf_keras==2.18.0
+thinc==8.3.4
+threadpoolctl==3.6.0
+tifffile==2025.3.13
+timm==1.0.15
+tinycss2==1.4.0
+tokenizers==0.21.1
+toml==0.10.2
+toolz==0.12.1
+torch @ https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
+torchaudio @ https://download.pytorch.org/whl/cu124/torchaudio-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
+torchsummary==1.5.1
+torchvision @ https://download.pytorch.org/whl/cu124/torchvision-0.21.0%2Bcu124-cp311-cp311-linux_x86_64.whl
+tornado==6.4.2
+tqdm==4.67.1
+traitlets==5.7.1
+traittypes==0.2.1
+transformers==4.50.0
+treelite==4.4.1
+treescope==0.1.9
+triton==3.2.0
+tweepy==4.15.0
+typeguard==4.4.2
+typer==0.15.2
+types-pytz==2025.1.0.20250318
+types-setuptools==76.0.0.20250313
+typing_extensions==4.12.2
+tzdata==2025.1
+tzlocal==5.3.1
+uc-micro-py==1.0.3
+ucx-py-cu12==0.42.0
+ucxx-cu12==0.42.0
+umap-learn==0.5.7
+umf==0.10.0
+uritemplate==4.1.1
+urllib3==2.3.0
+vega-datasets==0.9.0
+virtualenv==20.29.3
+wadllib==1.3.6
+wandb==0.19.8
+wasabi==1.1.3
+wcwidth==0.2.13
+weasel==0.4.1
+webcolors==24.11.1
+webencodings==0.5.1
+websocket-client==1.8.0
+websockets==15.0.1
+Werkzeug==3.1.3
+widgetsnbextension==3.6.10
+wordcloud==1.9.4
+wrapt==1.17.2
+xarray==2025.1.2
+xarray-einstats==0.8.0
+xgboost==2.1.4
+xlrd==2.0.1
+xyzservices==2025.1.0
+yamllint==1.35.1
+yarl==1.18.3
+yellowbrick==1.5
+yfinance==0.2.55
+zict==3.0.0
+zipp==3.21.0
+zstandard==0.23.0
+
+
+2025-03-30 20:22:48,797 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint save hook for save
+2025-03-30 20:22:48,797 - speechbrain.utils.checkpoints - DEBUG - Registered checkpoint load hook for load_if_possible
+2025-03-30 20:22:48,800 - speechbrain.dataio.encoder - DEBUG - Would load categorical encoding from results/train_with_wav2vec2/1993/save/label_encoder.txt, but file doesn't exist yet.
+2025-03-30 20:22:48,803 - speechbrain.dataio.encoder - INFO - Load called, but CategoricalEncoder is not empty. Loaded data will overwrite everything. This is normal if there is e.g. an unk label defined at init.
+2025-03-30 20:22:48,803 - speechbrain.dataio.encoder - DEBUG - Loaded categorical encoding from results/train_with_wav2vec2/1993/save/label_encoder.txt
+2025-03-30 20:22:49,268 - speechbrain.core - INFO - Info: precision arg from hparam file is used
+2025-03-30 20:22:49,269 - speechbrain.core - INFO - Info: ckpt_interval_minutes arg from hparam file is used
+2025-03-30 20:22:49,275 - speechbrain.core - INFO - Gradscaler enabled: `True`
+2025-03-30 20:22:49,275 - speechbrain.core - INFO - Using training precision: `--precision=fp16`
+2025-03-30 20:22:49,275 - speechbrain.core - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-03-30 20:22:49,277 - speechbrain.core - INFO - StatusIdBrainWav2Vec2 Model Statistics:
+* Total Number of Trainable Parameters: 90.2M
+* Total Number of Parameters: 94.4M
+* Trainable Parameters represent 95.5491% of the total size.
+2025-03-30 20:22:49,279 - speechbrain.utils.checkpoints - INFO - Would load a checkpoint here, but none found yet.
+2025-03-30 20:22:49,279 - speechbrain.utils.epoch_loop - INFO - Going into epoch 1
+2025-03-30 20:22:49,367 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:25:15,532 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:25:43,629 - speechbrain.utils.train_logger - INFO - Epoch: 1, lr: 2.00e-04, wave2vec_lr: 1.00e-05 - train loss: 5.04e-01 - valid loss: 1.22e-01, valid error_rate: 5.60e-02
+2025-03-30 20:25:48,927 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-25-43+00
+2025-03-30 20:25:48,932 - speechbrain.utils.epoch_loop - INFO - Going into epoch 2
+2025-03-30 20:25:48,997 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:28:18,927 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:28:46,894 - speechbrain.utils.train_logger - INFO - Epoch: 2, lr: 2.00e-04, wave2vec_lr: 1.00e-05 - train loss: 1.14e-01 - valid loss: 1.83e-01, valid error_rate: 4.80e-02
+2025-03-30 20:28:50,735 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-28-46+00
+2025-03-30 20:28:50,949 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-25-43+00
+2025-03-30 20:28:50,950 - speechbrain.utils.epoch_loop - INFO - Going into epoch 3
+2025-03-30 20:28:51,014 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:31:19,882 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:31:47,825 - speechbrain.utils.train_logger - INFO - Epoch: 3, lr: 2.00e-04, wave2vec_lr: 1.00e-05 - train loss: 2.36e-02 - valid loss: 1.11e-01, valid error_rate: 2.40e-02
+2025-03-30 20:31:51,590 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-31-47+00
+2025-03-30 20:31:51,797 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-28-46+00
+2025-03-30 20:31:51,797 - speechbrain.utils.epoch_loop - INFO - Going into epoch 4
+2025-03-30 20:31:51,863 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:34:21,845 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:34:49,819 - speechbrain.utils.train_logger - INFO - Epoch: 4, lr: 2.00e-04, wave2vec_lr: 1.00e-05 - train loss: 4.20e-02 - valid loss: 1.01e-01, valid error_rate: 1.60e-02
+2025-03-30 20:34:53,660 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-34-49+00
+2025-03-30 20:34:53,875 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-31-47+00
+2025-03-30 20:34:53,875 - speechbrain.utils.epoch_loop - INFO - Going into epoch 5
+2025-03-30 20:34:53,940 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:37:22,578 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:37:50,510 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.0002 to 0.00018
+2025-03-30 20:37:50,510 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-05 to 9e-06
+2025-03-30 20:37:50,513 - speechbrain.utils.train_logger - INFO - Epoch: 5, lr: 2.00e-04, wave2vec_lr: 1.00e-05 - train loss: 4.45e-02 - valid loss: 5.75e-02, valid error_rate: 1.60e-02
+2025-03-30 20:37:55,582 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-37-50+00
+2025-03-30 20:37:55,800 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-34-49+00
+2025-03-30 20:37:55,801 - speechbrain.utils.epoch_loop - INFO - Going into epoch 6
+2025-03-30 20:37:55,899 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:40:23,188 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:40:51,103 - speechbrain.utils.train_logger - INFO - Epoch: 6, lr: 1.80e-04, wave2vec_lr: 9.00e-06 - train loss: 1.07e-02 - valid loss: 6.17e-02, valid error_rate: 8.00e-03
+2025-03-30 20:40:54,886 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-40-51+00
+2025-03-30 20:40:55,098 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-37-50+00
+2025-03-30 20:40:55,099 - speechbrain.utils.epoch_loop - INFO - Going into epoch 7
+2025-03-30 20:40:55,197 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:43:17,564 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:43:45,493 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00018 to 0.00016
+2025-03-30 20:43:45,493 - speechbrain.nnet.schedulers - INFO - Changing lr from 9e-06 to 8.1e-06
+2025-03-30 20:43:45,494 - speechbrain.utils.train_logger - INFO - Epoch: 7, lr: 1.80e-04, wave2vec_lr: 9.00e-06 - train loss: 1.39e-03 - valid loss: 6.32e-02, valid error_rate: 8.00e-03
+2025-03-30 20:43:54,287 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-43-45+00
+2025-03-30 20:43:54,626 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-40-51+00
+2025-03-30 20:43:54,626 - speechbrain.utils.epoch_loop - INFO - Going into epoch 8
+2025-03-30 20:43:54,775 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:46:23,662 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:46:51,484 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00016 to 0.00015
+2025-03-30 20:46:51,485 - speechbrain.nnet.schedulers - INFO - Changing lr from 8.1e-06 to 7.3e-06
+2025-03-30 20:46:51,485 - speechbrain.utils.train_logger - INFO - Epoch: 8, lr: 1.62e-04, wave2vec_lr: 8.10e-06 - train loss: 6.25e-05 - valid loss: 5.98e-02, valid error_rate: 8.00e-03
+2025-03-30 20:47:00,885 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-46-51+00
+2025-03-30 20:47:01,106 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-43-45+00
+2025-03-30 20:47:01,107 - speechbrain.utils.epoch_loop - INFO - Going into epoch 9
+2025-03-30 20:47:01,170 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:49:27,288 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:49:55,182 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00015 to 0.00013
+2025-03-30 20:49:55,182 - speechbrain.nnet.schedulers - INFO - Changing lr from 7.3e-06 to 6.6e-06
+2025-03-30 20:49:55,182 - speechbrain.utils.train_logger - INFO - Epoch: 9, lr: 1.46e-04, wave2vec_lr: 7.29e-06 - train loss: 3.81e-05 - valid loss: 5.52e-02, valid error_rate: 8.00e-03
+2025-03-30 20:50:02,047 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-49-55+00
+2025-03-30 20:50:02,277 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-46-51+00
+2025-03-30 20:50:02,277 - speechbrain.utils.epoch_loop - INFO - Going into epoch 10
+2025-03-30 20:50:02,347 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:52:26,883 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:52:54,807 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00013 to 0.00012
+2025-03-30 20:52:54,808 - speechbrain.nnet.schedulers - INFO - Changing lr from 6.6e-06 to 5.9e-06
+2025-03-30 20:52:54,808 - speechbrain.utils.train_logger - INFO - Epoch: 10, lr: 1.31e-04, wave2vec_lr: 6.56e-06 - train loss: 3.35e-05 - valid loss: 5.95e-02, valid error_rate: 8.00e-03
+2025-03-30 20:52:58,674 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-52-54+00
+2025-03-30 20:52:58,924 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-49-55+00
+2025-03-30 20:52:58,924 - speechbrain.utils.epoch_loop - INFO - Going into epoch 11
+2025-03-30 20:52:59,009 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:55:26,574 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:55:54,533 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00012 to 0.00011
+2025-03-30 20:55:54,533 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.9e-06 to 5.3e-06
+2025-03-30 20:55:54,533 - speechbrain.utils.train_logger - INFO - Epoch: 11, lr: 1.18e-04, wave2vec_lr: 5.90e-06 - train loss: 2.66e-05 - valid loss: 5.99e-02, valid error_rate: 8.00e-03
+2025-03-30 20:55:58,426 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-55-54+00
+2025-03-30 20:55:58,775 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-52-54+00
+2025-03-30 20:55:58,776 - speechbrain.utils.epoch_loop - INFO - Going into epoch 12
+2025-03-30 20:55:58,910 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:58:27,260 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 20:58:55,167 - speechbrain.nnet.schedulers - INFO - Changing lr from 0.00011 to 9.6e-05
+2025-03-30 20:58:55,167 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.3e-06 to 4.8e-06
+2025-03-30 20:58:55,168 - speechbrain.utils.train_logger - INFO - Epoch: 12, lr: 1.06e-04, wave2vec_lr: 5.31e-06 - train loss: 2.03e-05 - valid loss: 5.99e-02, valid error_rate: 8.00e-03
+2025-03-30 20:58:59,121 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-58-55+00
+2025-03-30 20:58:59,374 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-55-54+00
+2025-03-30 20:58:59,374 - speechbrain.utils.epoch_loop - INFO - Going into epoch 13
+2025-03-30 20:58:59,459 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:01:25,686 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:01:53,675 - speechbrain.nnet.schedulers - INFO - Changing lr from 9.6e-05 to 8.6e-05
+2025-03-30 21:01:53,675 - speechbrain.nnet.schedulers - INFO - Changing lr from 4.8e-06 to 4.3e-06
+2025-03-30 21:01:53,675 - speechbrain.utils.train_logger - INFO - Epoch: 13, lr: 9.57e-05, wave2vec_lr: 4.78e-06 - train loss: 1.65e-05 - valid loss: 5.91e-02, valid error_rate: 8.00e-03
+2025-03-30 21:01:57,622 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-01-53+00
+2025-03-30 21:01:57,867 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+20-58-55+00
+2025-03-30 21:01:57,867 - speechbrain.utils.epoch_loop - INFO - Going into epoch 14
+2025-03-30 21:01:57,940 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:04:25,256 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:04:53,077 - speechbrain.nnet.schedulers - INFO - Changing lr from 8.6e-05 to 7.7e-05
+2025-03-30 21:04:53,077 - speechbrain.nnet.schedulers - INFO - Changing lr from 4.3e-06 to 3.9e-06
+2025-03-30 21:04:53,078 - speechbrain.utils.train_logger - INFO - Epoch: 14, lr: 8.61e-05, wave2vec_lr: 4.30e-06 - train loss: 1.43e-05 - valid loss: 5.83e-02, valid error_rate: 8.00e-03
+2025-03-30 21:05:03,862 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-04-53+00
+2025-03-30 21:05:04,154 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-01-53+00
+2025-03-30 21:05:04,154 - speechbrain.utils.epoch_loop - INFO - Going into epoch 15
+2025-03-30 21:05:04,243 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:07:30,178 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:07:58,069 - speechbrain.nnet.schedulers - INFO - Changing lr from 7.7e-05 to 7e-05
+2025-03-30 21:07:58,070 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.9e-06 to 3.5e-06
+2025-03-30 21:07:58,070 - speechbrain.utils.train_logger - INFO - Epoch: 15, lr: 7.75e-05, wave2vec_lr: 3.87e-06 - train loss: 1.38e-05 - valid loss: 5.92e-02, valid error_rate: 8.00e-03
+2025-03-30 21:08:06,671 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-07-58+00
+2025-03-30 21:08:07,036 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-04-53+00
+2025-03-30 21:08:07,037 - speechbrain.utils.epoch_loop - INFO - Going into epoch 16
+2025-03-30 21:08:07,151 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:10:29,138 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:10:57,169 - speechbrain.nnet.schedulers - INFO - Changing lr from 7e-05 to 6.3e-05
+2025-03-30 21:10:57,169 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.5e-06 to 3.1e-06
+2025-03-30 21:10:57,169 - speechbrain.utils.train_logger - INFO - Epoch: 16, lr: 6.97e-05, wave2vec_lr: 3.49e-06 - train loss: 1.18e-05 - valid loss: 6.11e-02, valid error_rate: 8.00e-03
+2025-03-30 21:11:06,459 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-10-57+00
+2025-03-30 21:11:06,694 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-07-58+00
+2025-03-30 21:11:06,695 - speechbrain.utils.epoch_loop - INFO - Going into epoch 17
+2025-03-30 21:11:06,829 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:13:32,824 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:14:00,678 - speechbrain.nnet.schedulers - INFO - Changing lr from 6.3e-05 to 5.6e-05
+2025-03-30 21:14:00,678 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.1e-06 to 2.8e-06
+2025-03-30 21:14:00,678 - speechbrain.utils.train_logger - INFO - Epoch: 17, lr: 6.28e-05, wave2vec_lr: 3.14e-06 - train loss: 1.08e-05 - valid loss: 6.13e-02, valid error_rate: 8.00e-03
+2025-03-30 21:14:08,562 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-14-00+00
+2025-03-30 21:14:08,789 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-10-57+00
+2025-03-30 21:14:08,789 - speechbrain.utils.epoch_loop - INFO - Going into epoch 18
+2025-03-30 21:14:08,881 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:16:35,495 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:17:03,338 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.6e-05 to 5.1e-05
+2025-03-30 21:17:03,338 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.8e-06 to 2.5e-06
+2025-03-30 21:17:03,339 - speechbrain.utils.train_logger - INFO - Epoch: 18, lr: 5.65e-05, wave2vec_lr: 2.82e-06 - train loss: 1.02e-05 - valid loss: 5.70e-02, valid error_rate: 8.00e-03
+2025-03-30 21:17:15,016 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-17-03+00
+2025-03-30 21:17:15,239 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-14-00+00
+2025-03-30 21:17:15,240 - speechbrain.utils.epoch_loop - INFO - Going into epoch 19
+2025-03-30 21:17:15,302 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:19:38,931 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:20:06,859 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.1e-05 to 4.6e-05
+2025-03-30 21:20:06,859 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.5e-06 to 2.3e-06
+2025-03-30 21:20:06,859 - speechbrain.utils.train_logger - INFO - Epoch: 19, lr: 5.08e-05, wave2vec_lr: 2.54e-06 - train loss: 9.23e-06 - valid loss: 5.78e-02, valid error_rate: 8.00e-03
+2025-03-30 21:20:17,672 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-20-06+00
+2025-03-30 21:20:17,915 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-17-03+00
+2025-03-30 21:20:17,916 - speechbrain.utils.epoch_loop - INFO - Going into epoch 20
+2025-03-30 21:20:17,994 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:22:43,999 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:23:11,846 - speechbrain.nnet.schedulers - INFO - Changing lr from 4.6e-05 to 4.1e-05
+2025-03-30 21:23:11,847 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.3e-06 to 2.1e-06
+2025-03-30 21:23:11,847 - speechbrain.utils.train_logger - INFO - Epoch: 20, lr: 4.58e-05, wave2vec_lr: 2.29e-06 - train loss: 8.42e-06 - valid loss: 5.82e-02, valid error_rate: 8.00e-03
+2025-03-30 21:23:24,098 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-23-11+00
+2025-03-30 21:23:24,345 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-20-06+00
+2025-03-30 21:23:24,346 - speechbrain.utils.epoch_loop - INFO - Going into epoch 21
+2025-03-30 21:23:24,412 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:25:52,773 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:26:20,663 - speechbrain.nnet.schedulers - INFO - Changing lr from 4.1e-05 to 3.7e-05
+2025-03-30 21:26:20,663 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.1e-06 to 1.9e-06
+2025-03-30 21:26:20,664 - speechbrain.utils.train_logger - INFO - Epoch: 21, lr: 4.12e-05, wave2vec_lr: 2.06e-06 - train loss: 7.90e-06 - valid loss: 6.07e-02, valid error_rate: 8.00e-03
+2025-03-30 21:26:24,651 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-26-20+00
+2025-03-30 21:26:24,917 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-23-11+00
+2025-03-30 21:26:24,917 - speechbrain.utils.epoch_loop - INFO - Going into epoch 22
+2025-03-30 21:26:24,981 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:28:49,441 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:29:17,443 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.7e-05 to 3.3e-05
+2025-03-30 21:29:17,444 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.9e-06 to 1.7e-06
+2025-03-30 21:29:17,444 - speechbrain.utils.train_logger - INFO - Epoch: 22, lr: 3.71e-05, wave2vec_lr: 1.85e-06 - train loss: 7.01e-06 - valid loss: 6.16e-02, valid error_rate: 8.00e-03
+2025-03-30 21:29:34,255 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-29-17+00
+2025-03-30 21:29:34,485 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-26-20+00
+2025-03-30 21:29:34,485 - speechbrain.utils.epoch_loop - INFO - Going into epoch 23
+2025-03-30 21:29:34,568 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:32:03,243 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:32:31,082 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.3e-05 to 3e-05
+2025-03-30 21:32:31,083 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.7e-06 to 1.5e-06
+2025-03-30 21:32:31,083 - speechbrain.utils.train_logger - INFO - Epoch: 23, lr: 3.34e-05, wave2vec_lr: 1.67e-06 - train loss: 6.42e-06 - valid loss: 6.18e-02, valid error_rate: 8.00e-03
+2025-03-30 21:32:35,062 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-32-31+00
+2025-03-30 21:32:35,311 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-29-17+00
+2025-03-30 21:32:35,311 - speechbrain.utils.epoch_loop - INFO - Going into epoch 24
+2025-03-30 21:32:35,405 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:34:59,256 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:35:27,199 - speechbrain.nnet.schedulers - INFO - Changing lr from 3e-05 to 2.7e-05
+2025-03-30 21:35:27,199 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.5e-06 to 1.4e-06
+2025-03-30 21:35:27,199 - speechbrain.utils.train_logger - INFO - Epoch: 24, lr: 3.00e-05, wave2vec_lr: 1.50e-06 - train loss: 6.09e-06 - valid loss: 6.18e-02, valid error_rate: 8.00e-03
+2025-03-30 21:35:34,488 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-35-27+00
+2025-03-30 21:35:34,743 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-32-31+00
+2025-03-30 21:35:34,743 - speechbrain.utils.epoch_loop - INFO - Going into epoch 25
+2025-03-30 21:35:34,812 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:38:00,845 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:38:28,687 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.7e-05 to 2.4e-05
+2025-03-30 21:38:28,688 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.4e-06 to 1.2e-06
+2025-03-30 21:38:28,688 - speechbrain.utils.train_logger - INFO - Epoch: 25, lr: 2.70e-05, wave2vec_lr: 1.35e-06 - train loss: 5.83e-06 - valid loss: 6.27e-02, valid error_rate: 8.00e-03
+2025-03-30 21:38:35,445 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-38-28+00
+2025-03-30 21:38:38,013 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-35-27+00
+2025-03-30 21:38:38,013 - speechbrain.utils.epoch_loop - INFO - Going into epoch 26
+2025-03-30 21:38:38,079 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:41:00,876 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:41:28,764 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.4e-05 to 2.2e-05
+2025-03-30 21:41:28,764 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.2e-06 to 1.1e-06
+2025-03-30 21:41:28,765 - speechbrain.utils.train_logger - INFO - Epoch: 26, lr: 2.43e-05, wave2vec_lr: 1.22e-06 - train loss: 5.34e-06 - valid loss: 6.28e-02, valid error_rate: 8.00e-03
+2025-03-30 21:41:32,759 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-41-28+00
+2025-03-30 21:41:33,176 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-38-28+00
+2025-03-30 21:41:33,176 - speechbrain.utils.epoch_loop - INFO - Going into epoch 27
+2025-03-30 21:41:33,271 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:44:02,241 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:44:30,213 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.2e-05 to 2e-05
+2025-03-30 21:44:30,213 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.1e-06 to 9.8e-07
+2025-03-30 21:44:30,214 - speechbrain.utils.train_logger - INFO - Epoch: 27, lr: 2.19e-05, wave2vec_lr: 1.09e-06 - train loss: 4.95e-06 - valid loss: 6.25e-02, valid error_rate: 8.00e-03
+2025-03-30 21:44:34,204 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-44-30+00
+2025-03-30 21:44:34,613 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-41-28+00
+2025-03-30 21:44:34,614 - speechbrain.utils.epoch_loop - INFO - Going into epoch 28
+2025-03-30 21:44:34,764 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:47:03,121 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:47:31,076 - speechbrain.nnet.schedulers - INFO - Changing lr from 2e-05 to 1.8e-05
+2025-03-30 21:47:31,076 - speechbrain.nnet.schedulers - INFO - Changing lr from 9.8e-07 to 8.9e-07
+2025-03-30 21:47:31,076 - speechbrain.utils.train_logger - INFO - Epoch: 28, lr: 1.97e-05, wave2vec_lr: 9.85e-07 - train loss: 4.45e-06 - valid loss: 6.27e-02, valid error_rate: 8.00e-03
+2025-03-30 21:48:19,196 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-47-31+00
+2025-03-30 21:48:19,463 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-44-30+00
+2025-03-30 21:48:19,463 - speechbrain.utils.epoch_loop - INFO - Going into epoch 29
+2025-03-30 21:48:19,555 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:50:45,962 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:51:13,933 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.8e-05 to 1.6e-05
+2025-03-30 21:51:13,933 - speechbrain.nnet.schedulers - INFO - Changing lr from 8.9e-07 to 8e-07
+2025-03-30 21:51:13,933 - speechbrain.utils.train_logger - INFO - Epoch: 29, lr: 1.77e-05, wave2vec_lr: 8.86e-07 - train loss: 4.35e-06 - valid loss: 6.33e-02, valid error_rate: 8.00e-03
+2025-03-30 21:51:17,912 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-51-13+00
+2025-03-30 21:51:18,196 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-47-31+00
+2025-03-30 21:51:18,197 - speechbrain.utils.epoch_loop - INFO - Going into epoch 30
+2025-03-30 21:51:18,281 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:53:44,138 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:54:12,058 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.6e-05 to 1.4e-05
+2025-03-30 21:54:12,058 - speechbrain.nnet.schedulers - INFO - Changing lr from 8e-07 to 7.2e-07
+2025-03-30 21:54:12,059 - speechbrain.utils.train_logger - INFO - Epoch: 30, lr: 1.60e-05, wave2vec_lr: 7.98e-07 - train loss: 4.04e-06 - valid loss: 6.31e-02, valid error_rate: 8.00e-03
+2025-03-30 21:55:07,543 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-54-12+00
+2025-03-30 21:55:07,816 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-51-13+00
+2025-03-30 21:55:07,817 - speechbrain.utils.epoch_loop - INFO - Going into epoch 31
+2025-03-30 21:55:07,929 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:57:35,993 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 21:58:03,877 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.4e-05 to 1.3e-05
+2025-03-30 21:58:03,878 - speechbrain.nnet.schedulers - INFO - Changing lr from 7.2e-07 to 6.5e-07
+2025-03-30 21:58:03,878 - speechbrain.utils.train_logger - INFO - Epoch: 31, lr: 1.44e-05, wave2vec_lr: 7.18e-07 - train loss: 3.75e-06 - valid loss: 6.30e-02, valid error_rate: 8.00e-03
+2025-03-30 21:58:12,820 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-58-03+00
+2025-03-30 21:58:13,091 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-54-12+00
+2025-03-30 21:58:13,092 - speechbrain.utils.epoch_loop - INFO - Going into epoch 32
+2025-03-30 21:58:13,155 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:00:39,014 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:01:06,816 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.3e-05 to 1.2e-05
+2025-03-30 22:01:06,816 - speechbrain.nnet.schedulers - INFO - Changing lr from 6.5e-07 to 5.8e-07
+2025-03-30 22:01:06,817 - speechbrain.utils.train_logger - INFO - Epoch: 32, lr: 1.29e-05, wave2vec_lr: 6.46e-07 - train loss: 3.65e-06 - valid loss: 6.36e-02, valid error_rate: 8.00e-03
+2025-03-30 22:01:20,996 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-01-06+00
+2025-03-30 22:01:21,280 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+21-58-03+00
+2025-03-30 22:01:21,281 - speechbrain.utils.epoch_loop - INFO - Going into epoch 33
+2025-03-30 22:01:21,347 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:03:48,406 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:04:16,468 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.2e-05 to 1e-05
+2025-03-30 22:04:16,468 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.8e-07 to 5.2e-07
+2025-03-30 22:04:16,468 - speechbrain.utils.train_logger - INFO - Epoch: 33, lr: 1.16e-05, wave2vec_lr: 5.81e-07 - train loss: 3.87e-06 - valid loss: 6.47e-02, valid error_rate: 8.00e-03
+2025-03-30 22:04:31,550 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-04-16+00
+2025-03-30 22:04:31,825 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-01-06+00
+2025-03-30 22:04:31,826 - speechbrain.utils.epoch_loop - INFO - Going into epoch 34
+2025-03-30 22:04:31,895 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:07:01,096 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:07:28,974 - speechbrain.nnet.schedulers - INFO - Changing lr from 1e-05 to 9.4e-06
+2025-03-30 22:07:28,974 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.2e-07 to 4.7e-07
+2025-03-30 22:07:28,974 - speechbrain.utils.train_logger - INFO - Epoch: 34, lr: 1.05e-05, wave2vec_lr: 5.23e-07 - train loss: 3.20e-06 - valid loss: 6.78e-02, valid error_rate: 8.00e-03
+2025-03-30 22:07:38,886 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-07-28+00
+2025-03-30 22:07:39,404 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-04-16+00
+2025-03-30 22:07:39,405 - speechbrain.utils.epoch_loop - INFO - Going into epoch 35
+2025-03-30 22:07:39,547 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:10:04,934 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:10:32,796 - speechbrain.nnet.schedulers - INFO - Changing lr from 9.4e-06 to 8.5e-06
+2025-03-30 22:10:32,796 - speechbrain.nnet.schedulers - INFO - Changing lr from 4.7e-07 to 4.2e-07
+2025-03-30 22:10:32,796 - speechbrain.utils.train_logger - INFO - Epoch: 35, lr: 9.42e-06, wave2vec_lr: 4.71e-07 - train loss: 3.12e-06 - valid loss: 6.79e-02, valid error_rate: 8.00e-03
+2025-03-30 22:10:43,838 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-10-32+00
+2025-03-30 22:10:44,110 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-07-28+00
+2025-03-30 22:10:44,111 - speechbrain.utils.epoch_loop - INFO - Going into epoch 36
+2025-03-30 22:10:44,234 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:13:09,924 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:13:37,908 - speechbrain.nnet.schedulers - INFO - Changing lr from 8.5e-06 to 7.6e-06
+2025-03-30 22:13:37,909 - speechbrain.nnet.schedulers - INFO - Changing lr from 4.2e-07 to 3.8e-07
+2025-03-30 22:13:37,909 - speechbrain.utils.train_logger - INFO - Epoch: 36, lr: 8.48e-06, wave2vec_lr: 4.24e-07 - train loss: 3.05e-06 - valid loss: 6.79e-02, valid error_rate: 8.00e-03
+2025-03-30 22:13:41,833 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-13-37+00
+2025-03-30 22:13:42,331 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-10-32+00
+2025-03-30 22:13:42,333 - speechbrain.utils.epoch_loop - INFO - Going into epoch 37
+2025-03-30 22:13:42,440 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:16:06,106 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:16:34,025 - speechbrain.nnet.schedulers - INFO - Changing lr from 7.6e-06 to 6.9e-06
+2025-03-30 22:16:34,025 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.8e-07 to 3.4e-07
+2025-03-30 22:16:34,025 - speechbrain.utils.train_logger - INFO - Epoch: 37, lr: 7.63e-06, wave2vec_lr: 3.82e-07 - train loss: 2.80e-06 - valid loss: 6.83e-02, valid error_rate: 8.00e-03
+2025-03-30 22:16:53,516 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-16-34+00
+2025-03-30 22:16:53,797 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-13-37+00
+2025-03-30 22:16:53,797 - speechbrain.utils.epoch_loop - INFO - Going into epoch 38
+2025-03-30 22:16:53,914 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:19:23,265 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:19:51,105 - speechbrain.nnet.schedulers - INFO - Changing lr from 6.9e-06 to 6.2e-06
+2025-03-30 22:19:51,106 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.4e-07 to 3.1e-07
+2025-03-30 22:19:51,106 - speechbrain.utils.train_logger - INFO - Epoch: 38, lr: 6.87e-06, wave2vec_lr: 3.43e-07 - train loss: 2.66e-06 - valid loss: 6.91e-02, valid error_rate: 8.00e-03
+2025-03-30 22:20:01,780 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-19-51+00
+2025-03-30 22:20:02,044 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-16-34+00
+2025-03-30 22:20:02,044 - speechbrain.utils.epoch_loop - INFO - Going into epoch 39
+2025-03-30 22:20:02,108 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:22:30,481 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:22:58,329 - speechbrain.nnet.schedulers - INFO - Changing lr from 6.2e-06 to 5.6e-06
+2025-03-30 22:22:58,329 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.1e-07 to 2.8e-07
+2025-03-30 22:22:58,330 - speechbrain.utils.train_logger - INFO - Epoch: 39, lr: 6.18e-06, wave2vec_lr: 3.09e-07 - train loss: 2.61e-06 - valid loss: 6.92e-02, valid error_rate: 8.00e-03
+2025-03-30 22:23:10,976 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-22-58+00
+2025-03-30 22:23:11,260 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-19-51+00
+2025-03-30 22:23:11,261 - speechbrain.utils.epoch_loop - INFO - Going into epoch 40
+2025-03-30 22:23:11,334 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:25:35,046 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:26:02,871 - speechbrain.nnet.schedulers - INFO - Changing lr from 5.6e-06 to 5e-06
+2025-03-30 22:26:02,871 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.8e-07 to 2.5e-07
+2025-03-30 22:26:02,872 - speechbrain.utils.train_logger - INFO - Epoch: 40, lr: 5.56e-06, wave2vec_lr: 2.78e-07 - train loss: 2.38e-06 - valid loss: 6.91e-02, valid error_rate: 8.00e-03
+2025-03-30 22:26:13,327 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-26-02+00
+2025-03-30 22:26:13,615 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-22-58+00
+2025-03-30 22:26:13,615 - speechbrain.utils.epoch_loop - INFO - Going into epoch 41
+2025-03-30 22:26:13,679 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:28:39,259 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:29:07,180 - speechbrain.nnet.schedulers - INFO - Changing lr from 5e-06 to 4.5e-06
+2025-03-30 22:29:07,181 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.5e-07 to 2.3e-07
+2025-03-30 22:29:07,181 - speechbrain.utils.train_logger - INFO - Epoch: 41, lr: 5.01e-06, wave2vec_lr: 2.50e-07 - train loss: 2.28e-06 - valid loss: 6.90e-02, valid error_rate: 8.00e-03
+2025-03-30 22:29:27,076 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-29-07+00
+2025-03-30 22:29:27,342 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-26-02+00
+2025-03-30 22:29:27,343 - speechbrain.utils.epoch_loop - INFO - Going into epoch 42
+2025-03-30 22:29:27,412 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:31:55,204 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:32:23,093 - speechbrain.nnet.schedulers - INFO - Changing lr from 4.5e-06 to 4.1e-06
+2025-03-30 22:32:23,094 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.3e-07 to 2e-07
+2025-03-30 22:32:23,097 - speechbrain.utils.train_logger - INFO - Epoch: 42, lr: 4.51e-06, wave2vec_lr: 2.25e-07 - train loss: 2.18e-06 - valid loss: 6.94e-02, valid error_rate: 8.00e-03
+2025-03-30 22:32:27,209 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-32-23+00
+2025-03-30 22:32:27,523 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-29-07+00
+2025-03-30 22:32:27,524 - speechbrain.utils.epoch_loop - INFO - Going into epoch 43
+2025-03-30 22:32:27,610 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:34:54,173 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:35:22,140 - speechbrain.nnet.schedulers - INFO - Changing lr from 4.1e-06 to 3.6e-06
+2025-03-30 22:35:22,140 - speechbrain.nnet.schedulers - INFO - Changing lr from 2e-07 to 1.8e-07
+2025-03-30 22:35:22,140 - speechbrain.utils.train_logger - INFO - Epoch: 43, lr: 4.06e-06, wave2vec_lr: 2.03e-07 - train loss: 1.98e-06 - valid loss: 6.94e-02, valid error_rate: 8.00e-03
+2025-03-30 22:36:07,973 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-35-22+00
+2025-03-30 22:36:08,275 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-32-23+00
+2025-03-30 22:36:08,275 - speechbrain.utils.epoch_loop - INFO - Going into epoch 44
+2025-03-30 22:36:08,339 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:38:37,489 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:39:05,219 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.6e-06 to 3.3e-06
+2025-03-30 22:39:05,219 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.8e-07 to 1.6e-07
+2025-03-30 22:39:05,220 - speechbrain.utils.train_logger - INFO - Epoch: 44, lr: 3.65e-06, wave2vec_lr: 1.82e-07 - train loss: 1.95e-06 - valid loss: 6.98e-02, valid error_rate: 8.00e-03
+2025-03-30 22:39:54,194 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-39-05+00
+2025-03-30 22:39:54,489 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-35-22+00
+2025-03-30 22:39:54,489 - speechbrain.utils.epoch_loop - INFO - Going into epoch 45
+2025-03-30 22:39:54,566 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:42:20,268 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:42:48,179 - speechbrain.nnet.schedulers - INFO - Changing lr from 3.3e-06 to 3e-06
+2025-03-30 22:42:48,179 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.6e-07 to 1.5e-07
+2025-03-30 22:42:48,180 - speechbrain.utils.train_logger - INFO - Epoch: 45, lr: 3.28e-06, wave2vec_lr: 1.64e-07 - train loss: 1.95e-06 - valid loss: 6.99e-02, valid error_rate: 8.00e-03
+2025-03-30 22:42:57,025 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-42-48+00
+2025-03-30 22:42:57,474 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-39-05+00
+2025-03-30 22:42:57,474 - speechbrain.utils.epoch_loop - INFO - Going into epoch 46
+2025-03-30 22:42:57,575 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:45:24,378 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:45:52,187 - speechbrain.nnet.schedulers - INFO - Changing lr from 3e-06 to 2.7e-06
+2025-03-30 22:45:52,188 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.5e-07 to 1.3e-07
+2025-03-30 22:45:52,188 - speechbrain.utils.train_logger - INFO - Epoch: 46, lr: 2.96e-06, wave2vec_lr: 1.48e-07 - train loss: 1.75e-06 - valid loss: 6.99e-02, valid error_rate: 8.00e-03
+2025-03-30 22:46:06,756 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-45-52+00
+2025-03-30 22:46:07,055 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-42-48+00
+2025-03-30 22:46:07,055 - speechbrain.utils.epoch_loop - INFO - Going into epoch 47
+2025-03-30 22:46:07,137 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:48:32,481 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:49:00,249 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.7e-06 to 2.4e-06
+2025-03-30 22:49:00,249 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.3e-07 to 1.2e-07
+2025-03-30 22:49:00,250 - speechbrain.utils.train_logger - INFO - Epoch: 47, lr: 2.66e-06, wave2vec_lr: 1.33e-07 - train loss: 1.71e-06 - valid loss: 7.02e-02, valid error_rate: 8.00e-03
+2025-03-30 22:49:10,994 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-49-00+00
+2025-03-30 22:49:11,292 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-45-52+00
+2025-03-30 22:49:11,293 - speechbrain.utils.epoch_loop - INFO - Going into epoch 48
+2025-03-30 22:49:11,366 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:51:38,996 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:52:06,782 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.4e-06 to 2.2e-06
+2025-03-30 22:52:06,783 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.2e-07 to 1.1e-07
+2025-03-30 22:52:06,783 - speechbrain.utils.train_logger - INFO - Epoch: 48, lr: 2.39e-06, wave2vec_lr: 1.20e-07 - train loss: 1.68e-06 - valid loss: 7.06e-02, valid error_rate: 8.00e-03
+2025-03-30 22:52:21,529 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-52-06+00
+2025-03-30 22:52:21,831 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-49-00+00
+2025-03-30 22:52:21,832 - speechbrain.utils.epoch_loop - INFO - Going into epoch 49
+2025-03-30 22:52:21,894 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:54:46,816 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:55:14,735 - speechbrain.nnet.schedulers - INFO - Changing lr from 2.2e-06 to 1.9e-06
+2025-03-30 22:55:14,736 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.1e-07 to 9.7e-08
+2025-03-30 22:55:14,737 - speechbrain.utils.train_logger - INFO - Epoch: 49, lr: 2.16e-06, wave2vec_lr: 1.08e-07 - train loss: 1.70e-06 - valid loss: 7.13e-02, valid error_rate: 8.00e-03
+2025-03-30 22:55:18,837 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-55-14+00
+2025-03-30 22:55:19,189 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-52-06+00
+2025-03-30 22:55:19,189 - speechbrain.utils.epoch_loop - INFO - Going into epoch 50
+2025-03-30 22:55:19,315 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:57:45,869 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:58:13,724 - speechbrain.nnet.schedulers - INFO - Changing lr from 1.9e-06 to 1.7e-06
+2025-03-30 22:58:13,725 - speechbrain.nnet.schedulers - INFO - Changing lr from 9.7e-08 to 8.7e-08
+2025-03-30 22:58:13,725 - speechbrain.utils.train_logger - INFO - Epoch: 50, lr: 1.94e-06, wave2vec_lr: 9.70e-08 - train loss: 1.46e-06 - valid loss: 7.16e-02, valid error_rate: 8.00e-03
+2025-03-30 22:58:38,959 - speechbrain.utils.checkpoints - INFO - Saved an end-of-epoch checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-58-13+00
+2025-03-30 22:58:39,349 - speechbrain.utils.checkpoints - INFO - Deleted checkpoint in results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-55-14+00
+2025-03-30 22:58:39,352 - speechbrain.utils.checkpoints - INFO - Loading a checkpoint from results/train_with_wav2vec2/1993/save/CKPT+2025-03-30+22-58-13+00
+2025-03-30 22:58:40,058 - speechbrain.dataio.dataloader - DEBUG - SaveableDataLoader was requested to load a checkpoint, but the DataLoader has already been iterated. The DataLoader file will be ignored. This is normal in evaluation, when a checkpoint is loaded just to retrieve the best model.
+2025-03-30 22:58:43,951 - speechbrain.dataio.encoder - WARNING - CategoricalEncoder.expect_len was never called: assuming category count of 2 to be correct! Sanity check your encoder using `.expect_len`. Ensure that downstream code also uses the correct size. If you are sure this does not apply to you, use `.ignore_len`.
+2025-03-30 22:59:14,247 - speechbrain.utils.train_logger - INFO - Epoch loaded: 50 - test loss: 2.51e-02, test error_rate: 7.94e-03

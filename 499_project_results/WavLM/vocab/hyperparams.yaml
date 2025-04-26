@@ -1,0 +1,109 @@
+# Generated 2025-04-17 from:
+# /content/status_id_brain_with_wavlm.yaml
+# yamllint disable
+seed: 1993
+__set_seed: !apply:speechbrain.utils.seed_everything [1993]
+
+data_folder: Italian_Parkinsons_Voice_and_Speech/italian_parkinson
+output_folder: results/train_with_wavlm/1993
+save_folder: results/train_with_wavlm/1993/save
+train_log: results/train_with_wavlm/1993/train_log.txt
+
+# Using WavLM model instead
+wavlm_hub: microsoft/wavlm-base
+wavlm_folder: results/train_with_wavlm/1993/save/wavlm_checkpoint
+
+different_speakers: false
+test_spk_id: 1
+
+train_annotation: save_data_json/train.json
+valid_annotation: save_data_json/valid.json
+test_annotation: save_data_json/test.json
+split_ratio: [80, 10, 10]
+skip_prep: true
+
+train_logger: !new:speechbrain.utils.train_logger.FileTrainLogger
+  save_file: results/train_with_wavlm/1993/train_log.txt
+
+ckpt_interval_minutes: 15
+
+####################### Training Parameters ####################################
+number_of_epochs: 30
+batch_size: 2
+lr: 0.0002
+lr_wavlm: 0.00001
+
+freeze_wavlm: false
+freeze_wavlm_conv: true
+
+####################### Model Parameters #######################################
+encoder_dim: 768
+out_n_neurons: 2
+dropout: &id002 !new:torch.nn.Dropout
+  p: 0.3
+dataloader_options:
+  batch_size: 2
+  shuffle: true
+  num_workers: 1
+  drop_last: false
+
+# Using WavLM model
+wavlm: &id001 !new:speechbrain.lobes.models.huggingface_transformers.wavlm.WavLM
+  source: microsoft/wavlm-base
+  output_norm: true
+  freeze: false
+  freeze_feature_extractor: true
+  save_path: results/train_with_wavlm/1993/save/wavlm_checkpoint
+
+avg_pool: !new:speechbrain.nnet.pooling.StatisticsPooling
+  return_std: false
+
+output_mlp: &id003 !new:speechbrain.nnet.linear.Linear
+
+  input_size: 768
+  n_neurons: 2
+  bias: false
+
+epoch_counter: &id007 !new:speechbrain.utils.epoch_loop.EpochCounter
+  limit: 30
+
+modules:
+  wavlm: *id001
+  dropout: *id002
+  output_mlp: *id003
+model: &id004 !new:torch.nn.ModuleList
+- [*id003]
+log_softmax: !new:speechbrain.nnet.activations.Softmax
+  apply_log: true
+
+compute_cost: !name:speechbrain.nnet.losses.nll_loss
+
+error_stats: !name:speechbrain.utils.metric_stats.MetricStats
+  metric: !name:speechbrain.nnet.losses.classification_error
+    reduction: batch
+
+opt_class: !name:torch.optim.Adam
+  lr: 0.0002
+
+wavlm_opt_class: !name:torch.optim.Adam
+  lr: 0.00001
+
+lr_annealing: &id005 !new:speechbrain.nnet.schedulers.NewBobScheduler
+  initial_value: 0.0002
+  improvement_threshold: 0.0025
+  annealing_factor: 0.9
+  patient: 2
+
+lr_annealing_wavlm: &id006 !new:speechbrain.nnet.schedulers.NewBobScheduler
+  initial_value: 0.00001
+  improvement_threshold: 0.0025
+  annealing_factor: 0.9
+
+checkpointer: !new:speechbrain.utils.checkpoints.Checkpointer
+  checkpoints_dir: results/train_with_wavlm/1993/save
+  recoverables:
+    model: *id004
+    wavlm: *id001
+    lr_annealing_output: *id005
+    lr_annealing_wavlm: *id006
+    counter: *id007
